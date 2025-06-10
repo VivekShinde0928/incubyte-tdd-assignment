@@ -13,3 +13,5 @@ def test_two_numbers_delimeter():
     assert add("1\n2,3") == 6
 
 
+def test_different_delimeter():
+    assert add("//;\n1;2") == 3
